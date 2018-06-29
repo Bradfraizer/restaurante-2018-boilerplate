@@ -27,25 +27,83 @@ body {
 }
 
 @media only screen and (min-width : 992px) {
-  #home-section {
-    min-height: 500px;
+  #header-top {
+    min-height: 100px;
   }
 }
 
-li {
-  list-style-type: circle;
+.jumbo-text {
+    font-family: 'Lobster', cursive;
 }
 
-.image-resize {
-  height: 40vh;
+.container-fluid {
+  margin-bottom: 8vh;
 }
+
+.nav-li {
+  font-family: 'Lobster', cursive;
+}
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+}
+
+.intro {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.menu-header {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+p {
+  list-style-type: none;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 8vh;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h4 {
+  font-family: 'Lobster', cursive;
+}
+
+h5 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.li-header {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+}
+
+.li-text {
+  list-style-type: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+.li-items {
+  margin-top: 0vh;
+}
+
 
 .tablist li {
   font-size: 20px;
 }
+.footer-title {
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+}
 
 .footer {
   background-color: #f4f4f4;
+  margin: 0;
 }
 
 .footer li {

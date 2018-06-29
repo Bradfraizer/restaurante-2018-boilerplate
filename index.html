@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chefs Table</title>
     <!-- link google fonts here -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <!-- link all the css here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
@@ -16,7 +19,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-md-offset-3">
-                    <h1>The Table Is Open</h1>
+                    <h1 class="jumbo-text">There Is Always Room For You At Our Table</h1>
                     <a href="#menu-section" class="btn btn-primary">View our menu</a> <a href="#reservation-section" class="btn btn-primary">Make a reservation</a>
                 </div>
             </div><!-- /.row -->
@@ -42,107 +45,174 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home-section">About</a></li>
-                <li><a href="#about-section">Explore the Menu</a></li>
-                <li><a href="#menu-section">Make a Reservation</a></li>
+                <li class="nav-li"><a href="#about-section">About</a></li>
+                <li class="nav-li"><a href="#menu-section">Explore the Menu</a></li>
+                <li class="nav-li"><a href="#reservation-section">Make a Reservation</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
-		<section class="container">
+		<section id="about-section" class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-4 col-md-push-1">
-					<h2>A Unique Culinary Experience</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptates, voluptatum mollitia. Libero, veritatis ducimus eos quaerat maxime, asperiores laborum quam temporibus, est ratione atque rem voluptatibus ullam dicta non sequi perferendis eaque consequuntur qui soluta, distinctio quisquam excepturi nisi fugiat culpa! Nulla pariatur, accusantium id at nihil cumque ut.</p>
+				<div class="col-xs-12 col-xs-push-2 col-sm-12 col-sm-push-2 col-md-12 col-md-push-4 col-lg-12 col-lg-push-4">
+					<h2 class="menu-header">A Unique Culinary Experience</h2>
 				</div>
-				<div class="col-xs-12 col-xs-push-1 col-sm-12 col-sm-push-2 col-md-4 col-md-push-1">
-					<img src="img/blueberries.jpg" alt="parfait" class="image-resize">
-				</div>
-			</div>
-		</section>
-
-		<section class="container">
-			<div class="row">
-				<div class="col-xs-12 col-xs-push-1 col-sm-12 col-md-10 col-md-push-1">
-					<h2>Explore Our Menu</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga maiores doloremque dignissimos, molestiae facilis cumque nisi, magnam, rerum voluptatem unde totam numquam velit qui voluptatum.</p>
-				</div>
-			</div>
-		</section>
-
-		<section id="menu-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-10 col-md-push-1">
-
-					  <ul class="nav nav-tabs" role="tablist">
-					    <li role="presentation" class="active"><a href="#appetizers" aria-controls="appetizers" role="tab" data-toggle="tab">Appetizers</a></li>
-					    <li role="presentation"><a href="#entrees" aria-controls="entrees" role="tab" data-toggle="tab">Entrees</a></li>
-					    <li role="presentation"><a href="#deserts" aria-controls="deserts" role="tab" data-toggle="tab">Deserts</a></li>
-					    <li role="presentation"><a href="#cocktails" aria-controls="cocktails" role="tab" data-toggle="tab">Cocktails</a></li>
-					  </ul>
-						<div class="tab-content">
-					    <div role="tabpanel" class="tab-pane active" id="appetizers">
-								<ul>
-									<li class="bold">Spring Salad</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Truffle Fries</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Baked Brussel Sprouts</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Three Cheese Mac &amp; Cheese</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-								</ul>
-					    </div>
-					    <div role="tabpanel" class="tab-pane" id="entrees">
-								<ul>
-									<li class="bold">Spaghetti &amp; Meatballs</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Grilled Alaskan Salmon</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Filet Mignon</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Margherita Pizza</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-								</ul>
-					    </div>
-					    <div role="tabpanel" class="tab-pane" id="deserts">
-								<ul>
-									<li class="bold">Chocolate Lava Cake</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Strawberry Cheesecake</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Creme Brulee</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Fruit Tarte</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-								</ul>
-					    </div>
-					    <div role="tabpanel" class="tab-pane" id="cocktails">
-								<ul>
-									<li class="bold">Lemon Drop</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Mai Tai</li>
-										<p>Lorem ipsum dolor sit amet,, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">Gin &amp; Tonic</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-									<li class="bold">House Special</li>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quas quod voluptas iure suscipit dolor, dignissimos pariatur! Facere ullam fuga sequi commodi, saepe excepturi nisi!</p>
-								</ul>
-					    </div>
-					  </div>
+				<section class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6 col-lg-push-6 col-lg-6">
+							<img src="img/blueberries.jpg" alt="blueberry parfait" class="img-responsive">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-6 col-lg-pull-6 col-lg-6">
+							<p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, consequatur, nulla hic laborum tempore rerum aperiam impedit exercitationem! Error quaerat pariatur aliquam qui saepe doloribus quis, commodi voluptas quasi quibusdam laudantium a. Sint ut ab mollitia delectus repellat expedita suscipit, porro sapiente quas eligendi soluta nobis harum unde, consequatur sit dolor, voluptatibus. Saepe quia fuga accusamus rerum voluptatem, laborum incidunt sapiente. Beatae molestias mollitia adipisci esse nihil sint perferendis eius consectetur pariatur in modi tempora cumque repellendus tempore nostrum, praesentium eum provident minus voluptas vero, iste hic quia. Neque obcaecati voluptatem, odio laboriosam tempore placeat rem enim possimus dolores consequuntur.</p>
+						</div>
 					</div>
+				</section>
+			</div>
+		</section>
+
+		<section class="container">
+			<div id="menu-section" class="text-center">
+				<h2 id="menu-title"class="menu-header">Explore Our Menu</h2>
+			</div>
+			<div class="text-center">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quos tempore voluptatum quasi. Expedita beatae error quae animi voluptates reiciendis, voluptatem aliquid atque repudiandae labore quas provident molestiae ipsam neque optio consectetur deleniti nulla facilis tempore, laboriosam adipisci tempora quam voluptas. Pariatur, rerum, dolor dignissimos aliquid iure ipsum repellendus quod. Praesentium eum cupiditate possimus dolores, iusto explicabo, id! Iste qui quisquam officiis facere necessitatibus accusantium optio aperiam, sequi, esse nesciunt dolore, dolorem quaerat soluta vitae voluptatibus et explicabo deleniti suscipit.</p>
+			</div>
+		</section>
+
+		<section class="container-fluid">
+			<div class="panel-group text-center" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          <h4>Appetizers</h4>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="active" aria-labelledby="headingOne">
+						<section class="container tab-bg">
+				      <div class="panel-body row">
+								<div class="col-xs-12 col-xs-push-4 col-sm-12 col-sm-push-4 col-md-6 col-md-push-2 col-lg-6 col-lg-push-2">
+				        <img src="img/appetizers.jpg" alt="appetizers" class="img-responsive li-items">
+								</div>
+								<div class="text-center col-xs-12 col-sm-12 col-md-6 col-md-pull-2 col-lg-6 col-lg-pull-2">
+									<ul>
+										<li class="li-header">Spring Salad</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Baked Brussel Sprouts</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta beatae itaque optio placeat repellat vel nostrum cum iusto, velit, nobis animi nam ipsa mollitia impedit?</h5>
+										<li class="li-header">Truffle Fries</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Three Cheese Mac &amp; Cheese</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit incidunt, nostrum aperiam at dolorum numquam quidem debitis enim eius expedita veritatis quibusdam ea recusandae provident.</h5>
+									</ul>
+								</div>
+				      </div>
+						</section>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          <h4>Entrees</h4>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<section class="container tab-bg">
+				      <div class="panel-body row">
+								<div class="col-xs-12 col-xs-push-4 col-sm-12 col-sm-push-4 col-md-6 col-md-push-2 col-lg-6 col-lg-push-2">
+									<img src="img/entrees.jpg" alt="entrees"class="img-responsive li-items">
+								</div>
+								<div class="text-center col-xs-12 col-sm-12 col-md-6 col-md-pull-2 col-lg-6 col-lg-pull-2">
+									<ul>
+										<li class="li-header">Spaghetti &amp; Meatballs</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Fillet Mignon</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta beatae itaque optio placeat repellat vel nostrum cum iusto, velit, nobis animi nam ipsa mollitia impedit?</h5>
+										<li class="li-header">Grilled Alaskan Salmon</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Margherita Pizza</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit incidunt, nostrum aperiam at dolorum numquam quidem debitis enim eius expedita veritatis quibusdam ea recusandae provident.</h5>
+									</ul>
+								</div>
+				      </div>
+						</section>
+			    </div>
+			  </div>
+
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          <h4>Deserts</h4>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<section class="container tab-bg">
+				      <div class="panel-body row">
+								<div class="col-xs-12 col-xs-push-4 col-sm-12 col-sm-push-4 col-md-6 col-md-push-2 col-lg-6 col-lg-push-2">
+				        	<img src="img/desserts.jpg" alt="deserts" class="img-responsive li-items">
+								</div>
+								<div class="text-center col-xs-12 col-sm-12 col-md-6 col-md-pull-2 col-lg-6 col-lg-pull-2">
+									<ul>
+										<li class="li-header">Chocolate Lava Cake</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Creme Brulee</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta beatae itaque optio placeat repellat vel nostrum cum iusto, velit, nobis animi nam ipsa mollitia impedit?</h5>
+										<li class="li-header">Strawberry Cheesecake</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Fruit Tarte</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit incidunt, nostrum aperiam at dolorum numquam quidem debitis enim eius expedita veritatis quibusdam ea recusandae provident.</h5>
+									</ul>
+								</div>
+							</div>
+						</section>
+			    </div>
+				</div>
+
+				<div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingFour">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+			          <h4>Cocktails</h4>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+						<section class="container tab-bg">
+				      <div class="panel-body row">
+								<div class="col-xs-12 col-xs-push-4 col-sm-12 col-sm-push-4 col-md-6 col-md-push-2 col-lg-6 col-lg-push-2">
+				        	<img src="img/cocktails.jpg" alt="cocktails" class="img-responsive li-items">
+								</div>
+								<div class="text-center col-xs-12 col-sm-12 col-md-6 col-md-pull-2 col-lg-6 col-lg-pull-2">
+									<ul>
+										<li class="li-header">Lemon Drop</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">Gin &amp; Tonic</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta beatae itaque optio placeat repellat vel nostrum cum iusto, velit, nobis animi nam ipsa mollitia impedit?</h5>
+										<li class="li-header">Mai Tai</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quas, dolorem! Cumque, ab libero. Totam, ad! Ullam, nemo. Eum sunt corporis esse, perferendis animi officia.</h5>
+										<li class="li-header">House Special</li>
+											<h5 class="li-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit incidunt, nostrum aperiam at dolorum numquam quidem debitis enim eius expedita veritatis quibusdam ea recusandae provident.</h5>
+									</ul>
+								</div>
+				      </div>
+						</section>
+			    </div>
 				</div>
 			</div>
 		</section>
 
 
-
-		<section class="container-fluid footer">
+		<section id="reservation-section" class="container-fluid footer">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-6 col-md-push-2">
-					<h2>Make A Reservation</h2>
+				<div class="col-xs-4 6 col-sm-4 col-sm- col-md-6 col-md-push-2 col-lg-6 col-lg-push-2">
+					<h2 class="footer-title">Make A Reservation</h2>
 					<ul>
 						<li class="bold">Chefs Table</li>
 						<li>123 Market Street, Suite 900</li>
@@ -153,8 +223,8 @@
 						<i class="fab fa-instagram"></i>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-1">
-					<img src="img/footer.jpg" alt="" class=image-resize>
+				<div class="col-xs-8 col-sm-8 col-md-6 col-md-pull-1 col-lg-6 col-lg-pull-1">
+					<img src="img/footer.jpg" alt="" class="img-responsive footer-img">
 				</div>
 			</div>
 		</section>
